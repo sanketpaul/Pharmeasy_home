@@ -1,0 +1,582 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+/* utilityclasses */
+.bg{
+    background-image:  radial-gradient(380px 380px at 105% -50%, rgba(227, 128, 183, 0.28) 1%, rgba(188, 104, 150, 0.49) 45%, transparent), radial-gradient(380px 380px at -5% 140%, rgba(227, 128, 183, 0.28) 1%,rgb(221, 221, 93) 25%, transparent);
+    backdrop-filter: blur(100px);;
+    border-radius: 20px;
+}
+.navbar{
+   
+    
+    /* border: 2px solid black; */
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    /* height: 150px; */
+    min-width: 50px;
+    margin-bottom: 12px;
+}
+.logo{
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-right: 2%;
+    width: 20%;
+    border-right: 2px solid gray;
+}
+.adress_select{
+    font-size: 16px;
+    /* text-align: center; */
+    font-family: 'Varela Round', sans-serif;
+}
+.adress_select select{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color:rgb(6, 51, 43) ;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.adress_badge_search{
+    display: flex;
+   
+    width: 79%;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.badge1{
+    display: flex;
+   
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 68%;
+    /* padding-left: 10%; */
+    font-family: 'Varela Round', sans-serif;
+
+}
+.adress_badge{
+    width: 30%;
+    /* border-right: 2px solid red; */
+    font-family: 'Varela Round', sans-serif;
+}
+.badge_width{
+
+    margin-left: 10%;
+    font-family: 'Varela Round', sans-serif;
+}
+.badge_width a{
+    color: rgb(16 132 126);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+.downloadapp{
+    background-color:rgb(238, 244, 255);
+    border-radius: 6px;
+    padding: 2px 4px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.search_bar{
+    background-image: radial-gradient(380px 380px at 105% -50%, rgba(227, 128, 183, 0.28) 1%, rgba(188, 104, 150, 0.49) 45%, transparent), radial-gradient(380px 380px at -5% 140%, rgba(227, 128, 183, 0.28) 1%,rgb(221, 221, 93) 25%, transparent);
+    backdrop-filter: blur(100px);
+    /* margin-bottom: 2px; */
+    font-family: 'Varela Round', sans-serif;
+    height: 40px;
+
+}
+/* .search_bar:hover{ */
+    /* border: 1px solid rgb(6, 51, 43)s; */
+
+.search_bar_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 30px;
+    width: 46%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
+    padding: 0px 2px;
+    
+    font-family: 'Varela Round', sans-serif;
+    
+   
+
+}
+.search_bar_area:hover{
+    border: .5px solid rgb(6, 51, 43);
+}
+.search_bar_area button{
+    border-radius: 12px;
+    background-color: darkcyan;
+    border: none;
+    outline:none;
+    height: 90%;
+    color: white;
+    padding: 3px 10px;
+    width: 12%;
+    font-family: 'Varela Round', sans-serif;
+    
+    height: 90%;
+    font-size: 14px;
+ 
+
+}
+.search_bar_area i{
+    margin-left: 1%;
+}
+.search_bar_area input{
+    border: none;
+    outline:none;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+/* Banner */
+.banner {
+    height: 250px;
+    /* width: 70%; */
+
+}
+
+.banner>img {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 20px; */
+}
+
+/* services container styling */
+.width {
+    width: 95%;
+    /* border: 2px solid red; */
+    margin: 2px auto;
+}
+
+.container_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.box_1 {
+
+    height: 150px;
+    width: 10%;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
+.box_1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+}
+
+.box_1>a {
+    color: #0d706b;
+    text-decoration: none;
+
+    font-weight: 300;
+
+}
+
+.box_1>a:hover {
+    text-decoration: none;
+
+}
+
+.box1_image {
+    height: 92px;
+    width: 90%;
+    margin: 0px auto;
+    border-bottom: 1px solid rgb(179, 176, 176);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+    margin-bottom: 8px;
+    /* font-size: 18px; */
+    /* box-shadow: 10px 10px 10px gray; */
+}
+
+.annimation a {
+    animation: container 1s infinite ease-out;
+    color: red;
+}
+
+@keyframes container {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 100
+    }
+}
+
+.plus_container {
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+.plus {
+    height: 210px;
+    margin-top: 60px;
+    width: 100%;
+    background-color: #8b7ae2;
+    /* margin-left: 2%; */
+
+    background-image: radial-gradient(380px 380px at 105% -50%, rgba(227, 128, 183, 0.28) 1%, rgba(188, 104, 150, 0.49) 45%, transparent), radial-gradient(380px 380px at -5% 140%, rgba(227, 128, 183, 0.28) 1%, rgba(188, 104, 150, 0.49) 45%, transparent);
+    backdrop-filter: blur(100px);
+    position: absolute;
+}
+
+.plus>p {
+    color: white;
+    margin-left: 2%;
+    font-size: 15px;
+}
+
+.icon1 {
+    animation: container 1s infinite ease-in;
+}
+
+.btn1 {
+    /* margin-bottom: 50px; */
+    margin-left: 40%;
+    background-color: rgb(211, 176, 17);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.pluspng {
+    margin-top: 1%;
+    margin-left: 2%;
+
+}
+
+.plus_image {
+    position: absolute;
+    left: 60%;
+    top: -60px;
+}
+
+.cssline {
+    animation: css2 2s infinite ease-in-out;
+    height: 5px;
+    width: 24%;
+    border: none;
+    margin-left: 2%;
+
+
+    background-color: transparent;
+    background-image: linear-gradient(90deg, yellow -1.35%, transparent 97.57%);
+
+}
+
+@keyframes css2 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 24%;
+    }
+}
+
+
+
+/* shop By concern styling */
+
+.shopimage {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.concernmain{
+    background-image: radial-gradient(380px 380px at 105% -50%, rgba(227, 128, 183, 0.28) 1%, rgba(188, 104, 150, 0.49) 45%, transparent), radial-gradient(380px 380px at -5% 140%, rgba(227, 128, 183, 0.28) 1%,yellow 25%, transparent);
+    backdrop-filter: blur(100px);
+}
+
+.shopcard_css {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* background-color: #8b7ae2; */
+    /* margin-left: 2%; */
+
+}
+
+.shopByConcernCard {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 540;
+    color: rgb(86, 83, 83);
+    width: 10%;
+    height: 200px;
+
+
+}
+
+.shopByConcernCard:hover {
+    cursor: pointer;
+    
+}
+
+
+/* styling prescription section */
+.prescription{
+    display: flex;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.prescription1{
+    /* border: 2px solid black; */
+    width: 10%;
+    padding: 6px;
+    background-color: rgb(197, 235, 250);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.presimg{
+    margin-top: 20px;
+    margin-left: 1%;
+}
+.prescription2{
+    /* border: 2px solid black; */
+    width: 30%;
+    background-color: rgb(192, 234, 251);
+}
+.prescription3{
+    /* border: 2px solid black; */
+    width: 60%;
+}
+.btn2{
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding: 7px;
+    background-color: #0d706b;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+}
+.howtoupload{
+    display: flex;
+    margin-left: 1%;
+    font-family: 'Varela Round', sans-serif;
+}
+.presscription_heading{
+    height: 40px;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+strong{
+    background-color: skyblue;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+.padding1{
+padding:23px 0px;
+font-family: 'Varela Round', sans-serif;
+}
+.p11{
+    width: 50%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* offer Just For you styling */
+.offer_just_for_you{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.offer_box{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.offerbox_1{
+    font-family: 'Varela Round', sans-serif;
+    height: 73px;
+    width:25%;
+    /* border: .5px solid black; */
+    border-radius: 6px;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+}
+.offer_img{
+  margin: 0px 5px; 
+}
+.offerbox_3{
+    font-family: 'Varela Round', sans-serif;
+    color: #0d706b;
+    text-align: center;
+    height: 73px;
+    width:25%;
+    /* border: .5px solid black; */
+    border-radius: 6px;
+    margin-right: 4%;
+    background: linear-gradient(137.11deg, rgb(245, 255, 254) -6.51%, rgb(184, 255, 251) 114.72%);
+    padding: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+   
+
+}
+.offerbox_3 a{
+    color: #0d706b;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+.offerbox_3 a:hover{
+    text-decoration: none;
+    color: #8b7ae2;
+}
+
+/* styling shopby categories  */
+.shop_by_categories{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Varela Round', sans-serif;
+}
+/* health styling */
+.about_thirocare{
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about_1{
+    width: 15%;
+    /* border: 2px solid black; */
+    /* margin-right: 2%; */
+    display: flex;
+    /* text-align: scenter; */
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.lab_contents_class{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: hidden;
+   
+    
+}
+.image_sizing{
+    height: 180px;
+    width: 14%;
+    margin-right: 2px;
+    margin-top: 20px;
+}
+
+
+/* Health concern 2 styling */
+.Health_concern_section{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+
+}
+.health_concern_main_box{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.health_concern_box3{
+    text-align: center;
+    width: 10%;
+}
+.box3_image img{
+    height: 150px ;
+    width: 150px;
+}
+
+
+
+/* why choose us section */
+.why_choose_Us{
+    margin-top: 80px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.choose{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Varela Round', sans-serif;
+}
+.choosebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pharmeasybanner{
+    height: 300px;
+    background-image: url('image/downloadBanner.webp');
+    background-position: center;
+    background-size: 100% 300px;
+    text-align: center;
+    
+}
+.pharmeasybanner h1{
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+.pharmeasybanner h3{
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.paymentpartner_box{
+display: flex;
+}
+.paymentpartner_box img{
+    margin: 20px 20px;
+}
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ftr{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
