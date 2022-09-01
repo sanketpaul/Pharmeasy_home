@@ -19,6 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat+Brush&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=Gentium+Book+Plus&family=Mali:wght@500&family=Varela+Round&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="./css/darkmode.css">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat+Brush&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=Gentium+Book+Plus&family=Mali:wght@300&family=Quicksand&display=swap');
@@ -29,7 +30,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="prescriptionimage/logo_big.svg" alt="">
+            <img  src="prescriptionimage/logo_big.svg" alt="">
         </div>
         <div class="adress_badge_search">
             <div class="adress_badge">
@@ -37,15 +38,15 @@
                     ;>express delivery to</span>
                 <div class="adress_select">
 
-                    <select name="" id="">
-                        <option value="">Kolkata 721150</option>
+                    <select name="" id="" style="color:black">
+                        <option  value="">Kolkata 721150</option>
                     </select>
                 </div>
 
             </div>
             <div class="badge1">
-                <div class="downloadapp badge_width ">
-                    <a href=""><i class="fa-solid fa-mobile"></i> download app</a>
+                <div class="downloadapp badge_width  ">
+                    <a href="" style="color:#0d706b"><i class="fa-solid fa-mobile"></i> download app</a>
                 </div>
                 <div class="login badge_width">
                     <a href=""><i class="fa-solid fa-user"></i> Hello,log in</a>
@@ -55,6 +56,9 @@
                 </div>
                 <div class="cart badge_width">
                     <a href=""><i class="fa-solid fa-cart-shopping"> </i> cart</a>
+                </div>
+                <div class="badge_width">
+                    <a href="#" ><i onclick="darkmode()" class="fa-solid fa-moon fa-shake" id="moon"></i><i onclick="litemode()" class="fa-solid fa-sun fa-shake " id="sun"></i></a>
                 </div>
             </div>
 
@@ -193,7 +197,7 @@
     </section>
     <section class="plus_container">
 
-        <div class="plus">
+        <div class="plus " >
 
             <img src="image2/plus.png" alt="" class="pluspng" style="width:35% ;height:90px">
             <p>Enjoy Extra Bachat On Every Order</p>
@@ -590,7 +594,7 @@
 
 
 
-
+    <script src="./js/darkmode.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/f1eb43dd31.js" crossorigin="anonymous"></script>
 </body>

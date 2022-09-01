@@ -1,0 +1,17 @@
+.color{
+    color:white;
+    
+}
+.darkmode{
+    color:white;
+    background-color: black;
+}
+#sun{
+    display: none;
+}
+.logofilter{
+    filter:contrast(29.5)
+}
+.psbg{
+    background-color: gray;
+}

@@ -35,7 +35,7 @@ body {
     font-size: 15px;
     border: none;
     outline: none;
-    color:rgb(6, 51, 43) ;
+    /* color:rgb(6, 51, 43) ; */
     font-family: 'Varela Round', sans-serif;
     
 }
@@ -67,13 +67,14 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 .badge_width a{
-    color: rgb(16 132 126);
+    /* color: rgb(16 132 126); */
     text-decoration: none;
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
 }
 .downloadapp{
     background-color:rgb(238, 244, 255);
+    /* color:#0d706b; */
     border-radius: 6px;
     padding: 2px 4px;
     font-family: 'Varela Round', sans-serif;
@@ -181,7 +182,7 @@ body {
 }
 
 .box_1>a {
-    color: #0d706b;
+    /* color: #0d706b; */
     text-decoration: none;
 
     font-weight: 300;
