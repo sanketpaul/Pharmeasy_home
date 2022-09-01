@@ -111,6 +111,9 @@ body {
 .search_bar_area:hover{
     border: .5px solid rgb(6, 51, 43);
 }
+.search_bar_area input{
+    border-radius: 8px;
+}
 .search_bar_area button{
     border-radius: 12px;
     background-color: darkcyan;
@@ -171,12 +174,16 @@ body {
     /* border: 2px solid black; */
     text-align: center;
     font-size: 18px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
 
 
 }
 
 .box_1:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
     cursor: pointer;
 
 }

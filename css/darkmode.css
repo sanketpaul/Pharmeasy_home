@@ -13,5 +13,13 @@
     filter:contrast(29.5)
 }
 .psbg{
-    background-color: gray;
+    background-color: rgb(47, 47, 47);
+}
+.box1_dark_shadow{
+    box-shadow: 0 4px 8px 0 rgba(249, 247, 247, 0.2), 0 6px 20px 0 rgba(242, 239, 239, 0.19);
+    
+}
+.box1_lite_shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }

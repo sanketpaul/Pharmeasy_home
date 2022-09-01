@@ -8,6 +8,14 @@ let logo=document.getElementsByTagName('img')[0]
 let plus=document.querySelector('.plus')
 let prescription1=document.querySelector('.prescription1')
 let prescription2=document.querySelector('.prescription2')
+let para=document.getElementsByTagName('p')
+para=Array.from(para)
+box1=document.querySelectorAll('.box_1')
+console.log(box1)
+box2=Array.from(box1)
+console.log(box2)
+
+
 
 
 
@@ -27,6 +35,15 @@ let darkmode=()=>{
     // prescription.classList.add('psbg')
     prescription1.classList.add('psbg')
     prescription2.classList.add('psbg')
+    para.forEach((element)=>{
+        element.classList.add('color')
+    })
+    box2.forEach((element)=>{
+        element.classList.add('box1_dark_shadow')
+        element.classList.remove('box1_lite_shadow')
+    })
+   
+    
     
 
 
@@ -42,4 +59,14 @@ let litemode=()=>{
     });
     logo.classList.remove('logofilter')
     plus.classList.remove('darkmode')
+    prescription1.classList.remove('psbg')
+    prescription2.classList.remove('psbg')
+    para.forEach((element)=>{
+        element.classList.remove('color')
+    })
+    box2.forEach((element)=>{
+        element.classList.remove('box1_dark_shadow')
+        element.classList.add('box1_lite_shadow')
+    })
+
 }
