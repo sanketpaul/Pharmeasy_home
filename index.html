@@ -24,6 +24,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat+Brush&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=Gentium+Book+Plus&family=Mali:wght@300&family=Quicksand&display=swap');
     </style>
+    <link rel="stylesheet" href="./css/coupon.css">
 
 </head>
 
@@ -64,7 +65,7 @@
 
         </div>
     </nav>
-    <div class="search_bar">
+    <div class="search_bar" id="search_bar">
         <div class="search_bar_area">
 
             <i class="fa-solid fa-magnifying-glass" style="color:rgb(46, 109, 88);"></i>
@@ -72,12 +73,16 @@
             <button type="submit">search</button>
         </div>
     </div>
+    <div id="coupon">
+        <img src="./image/couponcode.webp" alt="">
+        <button class="btncoupon"  onclick="closecoupon()">&times;</button>
+    </div>
 
 
 
 
 
-    <div class="banner_section">
+    <div class="banner_section" id="banner_section">
         <div class="carousel slide" id="mycarousel" data-ride="carousel">
             <!-- carousel indicators -->
 
@@ -120,7 +125,7 @@
 
         </div>
     </div>
-    <section class="services width">
+    <section class="services width" id="services1">
         <div class="container_1">
             <div class="box_1 box1_lite_shadow">
                 <img src="image2/medicine_ff (1).webp" alt="heathcare" class="box1_image">
@@ -212,46 +217,6 @@
 
 
     </section>
-    <section class="concernmain">
-
-        <div class="shopByConcern width">
-            <h2>Shop By Concern</h2>
-            <div class="shopcard_css">
-
-                <div class="shopByConcernCard">
-                    <img src="shopimage/fitness.webp" class="shopimage" alt="">
-                    <p>Fitness Suppliments</p>
-                </div>
-                <div class="shopByConcernCard">
-                    <img src="shopimage/Mother.webp" class="shopimage" alt="">
-                    <p>Mother and baby care</p>
-                </div>
-                <div class="shopByConcernCard">
-                    <img src="shopimage/healthcaredevices.webp" class="shopimage" alt="">
-                    <p>Healthcare Devices</p>
-                </div>
-                <div class="shopByConcernCard">
-                    <img src="shopimage/healthconditions.webp" class="shopimage" alt="">
-                    <p>Health conditions</p>
-                </div>
-
-                <div class="shopByConcernCard">
-                    <img src="shopimage/diabeticcare.webp" class="shopimage" alt="">
-                    <p>Diabetic Care</p>
-                </div>
-                <div class="shopByConcernCard">
-                    <img src="shopimage/eiderlycare.webp" class="shopimage" alt="">
-                    <p>Elderly Care</p>
-                </div>
-                <div class="shopByConcernCard">
-                    <img src="shopimage/accessories.webp" class="shopimage" alt="">
-                    <p>Accessories and wearables</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <div class="lab_test_by_health_concern bg">
         <div class="width">
             <h2>Lab test by Health Care</h2>
@@ -331,6 +296,46 @@
         </div>
 
     </div>
+    <section class="concernmain">
+
+        <div class="shopByConcern width">
+            <h2>Shop By Concern</h2>
+            <div class="shopcard_css">
+
+                <div class="shopByConcernCard">
+                    <img src="shopimage/fitness.webp" class="shopimage" alt="">
+                    <p>Fitness Suppliments</p>
+                </div>
+                <div class="shopByConcernCard">
+                    <img src="shopimage/Mother.webp" class="shopimage" alt="">
+                    <p>Mother and baby care</p>
+                </div>
+                <div class="shopByConcernCard">
+                    <img src="shopimage/healthcaredevices.webp" class="shopimage" alt="">
+                    <p>Healthcare Devices</p>
+                </div>
+                <div class="shopByConcernCard">
+                    <img src="shopimage/healthconditions.webp" class="shopimage" alt="">
+                    <p>Health conditions</p>
+                </div>
+
+                <div class="shopByConcernCard">
+                    <img src="shopimage/diabeticcare.webp" class="shopimage" alt="">
+                    <p>Diabetic Care</p>
+                </div>
+                <div class="shopByConcernCard">
+                    <img src="shopimage/eiderlycare.webp" class="shopimage" alt="">
+                    <p>Elderly Care</p>
+                </div>
+                <div class="shopByConcernCard">
+                    <img src="shopimage/accessories.webp" class="shopimage" alt="">
+                    <p>Accessories and wearables</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- ===============Offer just for you+++========== -->
 
@@ -596,7 +601,12 @@
 
     <script src="./js/darkmode.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <script src="./js/coupon.js"></script>
     <script src="https://kit.fontawesome.com/f1eb43dd31.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload=loadcoupon()
+    </script>
 </body>
 
 </html>
