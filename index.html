@@ -20,11 +20,13 @@
         href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat+Brush&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=Gentium+Book+Plus&family=Mali:wght@500&family=Varela+Round&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="./css/darkmode.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat+Brush&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=Gentium+Book+Plus&family=Mali:wght@300&family=Quicksand&display=swap');
     </style>
     <link rel="stylesheet" href="./css/coupon.css">
+    <link rel="stylesheet" href="./css/weather.css">
 
 </head>
 
@@ -35,15 +37,30 @@
         </div>
         <div class="adress_badge_search">
             <div class="adress_badge">
-                <img src="../prescriptionimage/express.svg" style="height:13px" alt=""><span style="font-size: 18px"
+                <div class="addtemp">
+
+                    <img src="../prescriptionimage/express.svg" style="height:13px" alt=""><span style="font-size: 18px"
                     ;>express delivery to</span>
-                <div class="adress_select">
-
-                    <select name="" id="" style="color:black">
-                        <option  value="">Kolkata 721150</option>
-                    </select>
+                    <div class="adress_select">
+                        
+                        <select name="" id="" style="color:black">
+                            <option  value="" id="location1">Kolkata 721150</option>
+                        </select>
+                    </div>
                 </div>
+                
+                <div class="temp">
+                    <div class="temparature">22°C
 
+                    </div>
+                    <div class="wea_main">
+
+                        <span class="material-symbols-outlined" id="dyntempicon">
+                            partly_cloudy_day
+                        </span>
+                    </div>
+                    
+                </div>
             </div>
             <div class="badge1">
                 <div class="downloadapp badge_width  ">
@@ -600,12 +617,14 @@
 
 
     <script src="./js/darkmode.js"></script>
+    <script src="./js/weather.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
     <script src="./js/coupon.js"></script>
     <script src="https://kit.fontawesome.com/f1eb43dd31.js" crossorigin="anonymous"></script>
     <script>
         window.onload=loadcoupon()
+        window.onload=getLocation()
     </script>
 </body>
 

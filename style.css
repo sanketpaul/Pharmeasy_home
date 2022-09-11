@@ -60,6 +60,9 @@ body {
     width: 30%;
     /* border-right: 2px solid red; */
     font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .badge_width{
 
